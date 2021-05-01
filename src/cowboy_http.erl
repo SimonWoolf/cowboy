@@ -788,6 +788,8 @@ request(Buffer, State0=#state{ref=Ref, transport=Transport, peer=Peer, sock=Sock
 		peer => Peer,
 		sock => Sock,
 		cert => Cert,
+		transport => Transport,
+		socket => Socket,
 		method => Method,
 		scheme => Scheme,
 		host => Host,
